@@ -1,0 +1,15 @@
+name: ml-data-libraries
+channels:
+    - conda-forge
+dependencies:
+    - python=3.13.1
+    - pip:
+        - pandas
+        - numpy
+        - scikit
+        - matplotlib
+        - azure.ai.ml
+        - azure.identity
+        - azure.ai.ml.entities
+        - azure.storage.filedatalake
+        - pymongo
